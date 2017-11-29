@@ -1,5 +1,7 @@
 package com.mo.bitTree;
 
+import java.util.Stack;
+
 import com.mo.queue.LinQueue;
 
 
@@ -94,6 +96,30 @@ public class Traverse {
 		return null;
 	}
 	
+	//使用非递归的方法前序遍历二叉树
+	public static void preOrderNoRecur(BitTreeNode root) {
+		if(root == null) return;
+		Stack<BitTreeNode> stack = new Stack<BitTreeNode>();
+		BitTreeNode cur = root;
+		stack.push(root);
+		while(!stack.isEmpty()) {
+			cur = stack.pop();
+			System.out.print(cur.getData() + " ");
+			if(cur.getRight() != null) stack.push(cur.getRight());
+			if(cur.getLeft() != null) stack.push(cur.getLeft());
+		}
+	}
+	
+	//使用非递归的后序遍历
+	public static void postOrderNoRecur(BitTreeNode root) {
+		
+	}
+	
+	
+	public static void m1(BitTreeNode root) {
+		
+	}
+	
 	public static void main(String[] args) throws Exception {
 		//构造一颗二叉树，分别构建两个树，再拼接到根节点上
 		BitTreeNode g = new BitTreeNode("g",null,null);
@@ -125,6 +151,7 @@ public class Traverse {
 		System.out.print("查找数值");
 		BitTreeNode search = Traverse.search(a, "a");
 		System.out.println(search.getData());
-	}
-
+		System.out.println("使用非递归的前序遍历");
+		preOrderNoRecur(a);
+	}	
 }
