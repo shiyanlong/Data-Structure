@@ -1,44 +1,17 @@
-[点击跳转到数据库](#数据库)  
-# node5
-《数据结构》--朱战立 笔记
-# java  
-> 这是java的内容  
->
->下面就是mysql的内容了 
-> 这是java的内容  
->
->下面就是mysql的内容了   
-> 这是java的内容  
->
->下面就是mysql的内容了  
-> 这是java的内容  
->
->下面就是mysql的内容了 
+README
+===========================
+《java多线程编程核心技术》笔记  
+这本书的demo很多，讲的比较清晰，容易理解，缺点就是感觉有很多内容重复，重重复复讲一个东西
+看书的笔记
 
-# mysql
->mysql的内容
-> 这是java的内容  
->
->下面就是mysql的内容了   
-> 这是java的内容  
->
->下面就是mysql的内容了 
-> 这是java的内容  
->
->下面就是mysql的内容了 
-# 数据库
->数据库的内容  
-> 这是java的内容  
->
->下面就是mysql的内容了   
-> 这是java的内容  
->
->下面就是mysql的内容了 
-> 这是java的内容  
->
->下面就是mysql的内容  
+****
+	
+|Author|龙|
+|---|---
+|E-mail|741321320@qq.com
+|Website|http://www.mowenlong.com
+|CSDN|https://blog.csdn.net/weixin_38104426
 
 
-[点击跳转到java](#java)  
-[点击跳转到mysql](#mysql)  
-
+****
+## 目录
