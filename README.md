@@ -14,8 +14,8 @@ README
 ****
 ## 目录
 ### 线性表
-* [数组实现](/src/com/mo/arrList/SeqList.java)
-* [链表实现](/src/com/mo/linList/LinList.java)
+* [数组实现](/src/SeqList.java)
+* [链表实现](/src/LinList.java)
 ### 队列
 * [数组实现](/src/com/mo/queue/SeqQueue.java)
 * [链表实现 ](/src/com/mo/queue/LinQueue.java)
